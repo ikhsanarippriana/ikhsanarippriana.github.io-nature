@@ -16,6 +16,8 @@ nav{
 .navbar .navbar-toggler{
     outline: none;
     border: none;
+    margin-left: auto;
+    margin-top: 20px;
 }
 
 .navbar .navbar-toggler:hover {
@@ -116,28 +118,17 @@ nav{
     padding: 100px 100px 200px;
 }
 
-.picture-1, .picture-2{
+.picture-1{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    box-sizing: content-box;
+    width: 75%;
+    box-shadow: 5px 5px 35px black;
+    border-radius: 5%;
 }
 
-.picture-1 {
-    width: 344px;
-    height: 340px;
-}
-
-.picture-2 {
-    width: 200px;
-    height: 194px;
-}
-
-.card .card-image-top {
-    height: 50%;
-    width: 100% !important;
-    margin-bottom: 25px;
-    padding: 50px 25px 25px;
+img.product {
+    height: 125px;
 }
 
 .btn-orange {
@@ -232,15 +223,19 @@ nav{
     .jumbotron {
         background-size: cover;
     }
+    
+    .picture-1 {
+        width: 100% !important;
+        height: 75% !important;
+    }
 
     .card {
         margin-bottom: 100px !important;
         height: 75% !important;
     }
-
-    .card .card-image-top {
-        margin-bottom: 100px;
-        padding: 100px 50 50px !important;
+    
+    img.product {
+        height: 200px !important;
     }
 
 }
@@ -265,12 +260,9 @@ nav{
     .jumbotron h2 {
         font-size: 40px;
     }
-        
-    .card .card-image-top {
-        height: 100%;
-        width: 50% !important;
-        margin-bottom: 100px;
-        padding: 100px 50 50px;
+
+    img.product {
+        height: 150px !important;
     }
         
     .card .card-title {
